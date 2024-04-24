@@ -1,0 +1,69 @@
+body{
+   background-image: url('../image/wedding-rings.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%; 
+    height:200px;
+    width:100%;
+    margin-right:30px;
+    margin-left: 29px;
+}
+#section1{
+    color: black;
+}
+
+#section2{
+    /* border: 1px solid red; */
+    padding-top: 40px;
+    height: 300px;
+    width: 45%;
+    float: left;
+   margin-left: 50px;
+   color: black;
+   
+} 
+
+ul li{
+    font-size: 1.5em;
+    float: right;
+    text-decoration: none;
+    /*display: inline-block ;*/
+    text-align-last: right;
+text-underline-offset: none;
+    margin-right: 40px;
+    border-radius: 40px;
+    height: 20px;
+    cursor: pointer;
+    padding: 2px;
+    color: black;
+
+}
+#mf{
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    white-space: nowrap;
+}
+
+#section3{
+    /* border: 1px solid red; */
+
+    height: 350px;
+    width: 30%;
+    margin-top: 100px;
+    margin-left: 180px;
+    text-align:center ;
+    font-weight: bold;
+    float: right;
+    background-color: rgb(242, 210, 189);
+    /* margin: 0 auto; */
+    /* margin-left: 30px ;
+  margin-top: 10px ;
+  background-image: url('./image/R.jpeg');
+  background-repeat: no-repeat;
+  background-size: 80% 600px;
+  background-position-x: center;
+  text-align: center;
+  padding-top: 10px; */
+}

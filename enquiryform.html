@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- <body style=" margin-left: 200px ;  margin-top: 30px ;  background-image: url('/image/bacground1.jpg'); background-repeat: no-repeat; background-size: 100% 100%;  text-align: center; border: height 300px ; width:70%; border: 6px double  purple ; padding-top: 20px;"> -->
+ <style>
+  body{
+  /* margin-right: 100px; */
+  margin-left: 30px ;
+  margin-top: 10px ;
+  background-image: url('./image/R.jpeg');
+  background-repeat: no-repeat;
+  background-size: 80% 600px;
+  background-position-x: center;
+  text-align: center;
+  padding-top: 10px;
+}  
+</style>
+<head>
+        <thead>
+            <h2 style="color: blue; "><u>ENQUIRY FORM</u></h2>
+        </thead>
+        <br>
+    </head>
+    <form action="" method="post">
+      <div>
+        <label  style="color:darkmagenta; width: 80%;" ><b>Email Address :</b></label>
+        <input type="email"  required>
+      </div>
+      <br>
+      <div>
+        <label style="color:darkmagenta;  width: 80%;" ><b>Guardian's First Name :</b></label>
+        <input type="text" name="Guardian's First Name" placeholder="Write Guardian's First name here" required>
+      </div>
+      <br>
+    <div>
+        <label style="color:darkmagenta;  width: 80%;"><b>Guardian's Last Name : </b></label>
+        <input type="text" name="Guardian's Last Name" placeholder="Write Guardian's Last name here" required>
+      </div>
+      <br>
+      <div>
+        <label style="color:darkmagenta;  width: 80%;"><b>Ward's Gender :</b></label>
+        <input type="radio" name="Gender" value="Male">Male
+        <input type="radio" name="Gender"  value="Female">Female
+      </div>
+      <br>
+      <div>
+        <label style="color:darkmagenta;  width: 80%;"><b>Ward's Age: </b></label>
+        <input type="number" name="Age" placeholder="Text your Ward's age here." required>
+      </div>
+      <br>
+      <div>
+        <label style="color:darkmagenta" for="Home Address" width: 80%;><b>Home Address :</b></label>
+        <textarea Id="Home Address" name="Home Address"  rows="3" cols="50"></textarea> 
+      </div> 
+      <br>
+       <div>
+        <p style="color: darkblue";  width: 70%;><b></b>Check below if you want to recieve feedback by PHONE or Fax :</b></p>
+        <input type="checkbox" name="PHONE" value="PHONE" id="PHONE"><label for="PHONE";  width: 80%;> PHONE</label>
+        <input type="checkbox" name="FAX" value="FAX" id="FAX"><label for="FAX"  width: 80%;> FAX</label>
+        <!-- <label>Next Contact </label>                       
+        <input type="checkbox"> -->
+      </div>
+      <br>
+      <div>
+        <label style="color:darkmagenta";  width: 80%;><b>Submit :</b></label>
+        <input type="submit" value="REGISTER">
+      </div>
+      <br>
+      <div>
+        <label  style="color:darkmagenta"><b>Reset :</b></label>
+        <input type="reset" value="Reset">
+      </div>
+    </form>
+</body>
+</html>

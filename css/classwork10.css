@@ -1,0 +1,15 @@
+@keyframes blinkRed {
+    0%, 49% { background-color: red; }
+    50%, 100% { background-color: black; }
+}
+@keyframes blinkYellow {
+    0%, 49% { background-color: yellow; }
+    50%, 100% { background-color: black; }
+}
+@keyframes blinkGreen {
+    0%, 49% { background-color: green; }
+    50%, 100% { background-color: black; }
+}
+.red { background-color: red; animation: blinkRed 9s infinite; }
+.yellow { background-color: yellow; animation: blinkYellow 9s infinite; animation-delay: 3s; }
+.green { background-color: green; animation: blinkGreen 9s infinite; animation-delay: 6s; }
